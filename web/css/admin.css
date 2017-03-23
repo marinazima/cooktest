@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.03.2017, 2:06:57
+    Author     : Zima
+*/
+
+ul.multicol, div.multicol{
+  /*width:760px;*/
+  /*margin-bottom:20px;*/
+  overflow:auto;
+  /*height: auto;*/
+}
+.multicol li, .multicol div{
+  line-height:1.5em;
+  /*border-bottom:1px solid #ccc;*/
+  float:left;
+  display:inline;
+}
+.mc-double li  { width:50%;} /* 2 col */
+.mc-triple li, .mc-triple div { width: 33.333%; } /* 3 col */
+.mc-quad li    { width:25%; } /* 4 col */
+.mc-quin li    { width:20%; } /* 5 col */
+
+.dish-ing-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.dish-ing-success {
+    color: #333;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.dish-ing {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.dish-ing-inactive{
+    color: #666;
+}
+.dish-ing-active{
+    color: green;
+}
